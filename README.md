@@ -1,3 +1,5 @@
-### Class for CPF Validation
+### CPF Validation Class
 
-Class made with JavaScript for CPF Validation
+CPF Validation Class made with JavaScript.
+
+Download this repository and instantiate the class by passing the cpf in the constructor for validation.
