@@ -1,1 +1,3 @@
-### Validação de CPF simples em JavaScript utilizando prototype
+### Class for CPF Validation
+
+Class made with JavaScript for CPF Validation
