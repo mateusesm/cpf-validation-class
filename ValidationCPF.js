@@ -1,14 +1,12 @@
-class ValidaCPF {
-
+class ValidationCPF {
     constructor(cpfSended) {
         this.cpfSended = cpfSended
     }
-
     get cpfClean() {
         return this.cpfSended.replace(/\D+/g, '')
     }
 
-    validationCPF() {
+    validationOfCPF() {
         if (!this.cpfClean || this.cpfClean.length !== 11 || this.isSequence()) {
             return false
         }
